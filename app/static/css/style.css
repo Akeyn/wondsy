@@ -1,3 +1,29 @@
 .form-control {
     height: unset !important;
 }
+
+.bg-pink {
+    background-color: #ed5497;
+}
+
+.btn-pink {
+    color: #fff;
+    background-color: #ed5497;
+    border-color: #ed5497;
+}
+
+.logo-title {
+    font-weight: 700;
+}
+
+.carousel-item-container {
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+
+.carousel-item-caption {
+    padding-bottom: 55px;
+    color: #fff;
+    align-self: flex-end;
+}
