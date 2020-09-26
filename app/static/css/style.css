@@ -10,13 +10,13 @@
     font-weight: 700;
 }
 
-.carousel-item-container {
+.carousel-item .container {
     width: 80%;
     height: 100%;
     display: flex;
 }
 
-.carousel-item-caption {
+.carousel-item .container .caption {
     padding-bottom: 55px;
     color: #fff;
     align-self: flex-end;
