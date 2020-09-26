@@ -1,23 +1,5 @@
-{% extends "bootstrap/base.html" %}
-{% block html_attribs %} lang="en"{% endblock %}
-{% block title %}Service App{% endblock %}
-{% block styles %}
-{{super()}}
-<link rel="stylesheet" href="{{ url_for('static', filename='css/floating-labels.css') }}">
-{% endblock %}
-{% block scripts %}
-<script src="{{ url_for('static', filename='js/jquery-3.5.1.slim.min.js') }}"></script>
-{{super()}}
-{% endblock %}
+{% extends "blocks/base.html" %}
 
-{% block content %}
-    <div class="container h-100">
-        <div class="row align-items-center h-100">
-            <div class="col-6 mx-auto card form-signin">
-                <div class="text-center">
-                    <h1 class="h3 mb-3 font-weight-normal">www.Wondsy.com</h1>
-                </div>
-            </div>
-        </div>
-    </div>
+{% block app_content %}
+    <h1>Home page</h1>
 {% endblock %}
